@@ -1,0 +1,96 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.body{
+    background-color: lightgreen;
+}
+
+.container {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    background-color: rgb(255, 57, 17);
+    color: lightblue;
+    height: 50px;
+    border: 5px blue solid;
+    border-radius:  10px;
+}
+
+.btn-div {
+    text-align: center;
+    margin-bottom: 15%;
+    margin: 0 auto;
+}
+
+.btn-div button {
+    background-color: black;
+    border: 5px  green solid;
+    border-radius: 10px;
+    height: 30px;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.circulo {
+    margin-left: 45%;
+    margin-top: 45px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50% ;
+    border: 5px rgb(141, 27, 27) solid;
+    background: rgb(6, 239, 247);
+    box-shadow: 7px 7px 5px 0px rgba(25, 78, 9, 0.75);
+}
+
+.cuadrado {
+    width: 100px;
+    height: 100px;
+    background: rgb(57, 173, 21);
+    margin-left: 45%;
+    margin-top: 50px;
+    box-shadow: 7px 7px 5px 0px rgba(31, 8, 95, 0.75);
+}
+
+.cuadrado_tricolor {
+    width: 0;
+    height: 0;
+    border-left: 100px solid rgb(155, 20, 155);
+    border-top: 50px solid rgb(255, 251, 0);
+    border-bottom: 50px solid rgb(187, 89, 24);
+    margin-left: 45%;
+    margin-top: 5%;
+    box-shadow: 7px 7px 5px 0px rgba(149, 14, 14, 0.75);
+}
+
+.circulo_cuatro{
+    width: 0;
+    height: 0;
+    border-right: 50px solid transparent;
+    border-top: 50px solid rgb(4, 0, 255);
+    border-left: 50px solid rgb(97, 154, 245);
+    border-bottom: 50px solid rgb(5, 184, 255);
+    border-radius: 100%;
+    margin-left: 45%;
+    margin-top: 50px;
+    margin-bottom: 5%;
+    box-shadow: 0px 7px 7px 0px rgba(31, 8, 95, 0.75);
+}
+.final{
+    font-family: cursive ;
+    text-align: center;
+    border: 5px  green solid;
+    border-radius: 10px;
+    background-color: black;
+    height: 30px;
+    font-weight: bold;
+    color: white;
+    margin-top: 2%;
+}
+.texto_1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
